@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alur Hymns</title>
+    <style>
+        :root {
+            --primary-color: #5C6BC0;
+            --primary-dark: #3949AB;
+            --primary-light: #8E99F3;
+            --accent-color: #FFC107;
+            --text-color: #333333;
+            --text-secondary: #757575;
+            --background-color: #FFFFFF;
+            --card-color: #F5F5F5;
+            --divider-color: #EEEEEE;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: #5C6BC0;
+                --primary-dark: #3949AB;
+                --primary-light: #8E99F3;
+                --accent-color: #FFC107;
+                --text-color: #E0E0E0;
+                --text-secondary: #9E9E9E;
+                --background-color: #121212;
+                --card-color: #1E1E1E;
+                --divider-color: #2C2C2C;
+            }
+        }
+
+        body {
+            font-family: 'Roboto', 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+            max-width: 100%;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+            text-align: center;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 24px 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            margin: 0;
+            padding: 0;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 20px;
+            transition: background-color 0.3s, transform 0.2s;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .btn:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: auto;
+            padding: 24px 0;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--divider-color);
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alur Hymns</h1>
+    </header>
+    
+    <div class="container">
+        <h2>Welcome to Alur Hymns</h2>
+        <p>Your digital collection of Alur language hymns and spiritual songs.</p>
+        
+        <a href="privacy_policy.html" class="btn">View Privacy Policy</a>
+    </div>
+    
+    <div class="footer">
+        <p>© 2025 Alur Hymns. All rights reserved.</p>
+    </div>
+</body>
+</html> 
